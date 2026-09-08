@@ -1,29 +1,84 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
+# Hotel Management Full-Stack Application
 
-# WESTERN GOVERNORS UNIVERSITY 
-## D387 – ADVANCED JAVA
-Welcome to Advanced Java! This is an opportunity for students to write multithreaded object-oriented code using Java frameworks and determine how to deploy software applications using cloud services.
+A full-stack hotel management application built with Java, Spring Boot, Angular, REST APIs, JPA/Hibernate, and Docker.
 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-## BASIC INSTRUCTIONS
-For this assessment, you will modify a Spring application with a Java back end and an Angular front end to include multithreaded language translation, a message at different time zones, and currency exchange. Then, build a Docker image of the current multithreaded Spring application and containerize it using the supporting documents provided in this task.
+## Overview
 
+This project demonstrates full-stack application development using a Java and Spring Boot backend with an Angular frontend. The application includes reservation-related functionality, REST-based communication, database persistence, localization features, time-zone handling, and containerization.
 
-## SUPPLEMENTAL RESOURCES 
-1.	How to clone a project to IntelliJ using Git?
+## Technologies
 
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
+- Java 17
+- Spring Boot
+- Angular
+- TypeScript
+- REST APIs
+- JPA / Hibernate
+- Maven
+- Docker
+- HTML
+- CSS
+- JavaScript
 
-2. How to create a branch and start Development?
+## Features
 
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
+- Full-stack Java and Angular architecture
+- REST API communication between frontend and backend
+- Reservation and room data handling
+- JPA/Hibernate persistence
+- Multithreaded welcome-message functionality
+- English and French localization support
+- Time-zone conversion functionality
+- Docker container configuration
+- Maven-based build process
 
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
+## Backend Structure
 
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
+The backend is organized into several layers, including:
 
+- Controllers / REST resources
+- Services
+- Repositories
+- Entities
+- Data transfer and response models
+- Converters
+- Configuration classes
+
+This separation helps keep application logic organized and maintainable.
+
+## Frontend
+
+The Angular frontend handles the user interface and communicates with the Spring Boot backend through REST endpoints.
+
+The frontend includes:
+
+- Angular components
+- TypeScript services
+- Routing
+- HTML templates
+- CSS styling
+- API integration
+
+## Development Skills Demonstrated
+
+This project demonstrates experience with:
+
+- Object-oriented programming
+- Full-stack development
+- REST API integration
+- Relational data persistence
+- Debugging and troubleshooting
+- Multithreading
+- Localization and internationalization
+- Time-zone handling
+- Git version control
+- Docker containerization
+- Maven dependency and build management
+
+## Development Process
+
+AI-assisted development tools were used as part of the problem-solving and debugging workflow. Suggested changes were reviewed, tested, and validated before being accepted into the application.
+
+## Repository Notice
+
+This repository is maintained privately for portfolio and interview-review purposes.
