@@ -59,6 +59,31 @@ The frontend includes:
 - CSS styling
 - API integration
 
+## API Example
+
+The Spring Boot backend exposes REST endpoints that allow the frontend and other clients to retrieve application data.
+
+### GET /api/welcome
+
+Returns localized welcome messages in English and French.
+
+**Request**
+
+```http
+GET http://localhost:8080/api/welcome
+```
+
+**Example Response**
+
+```json
+[
+  "Welcome to the Landon Hotel!",
+  "Bienvenue à l'hôtel Landon!"
+]
+```
+
+The endpoint uses Spring Boot REST controllers and a localization service to generate the English and French messages. The messages are processed asynchronously using `CompletableFuture` and returned to the client as a JSON response.
+
 ## Development Skills Demonstrated
 
 This project demonstrates experience with:
